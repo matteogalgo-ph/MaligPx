@@ -1,4 +1,5 @@
 anndata @ file:///home/conda/feedstock_root/build_artifacts/anndata_1742996693987/work
+annoy==1.17.3
 anyio @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_anyio_1782357087/work
 argon2-cffi @ file:///home/conda/feedstock_root/build_artifacts/argon2-cffi_1749017159514/work
 argon2-cffi-bindings @ file:///D:/bld/argon2-cffi-bindings_1762509368621/work
@@ -23,6 +24,7 @@ colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1733218098
 comm @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_comm_1753453984/work
 contourpy @ file:///D:/bld/contourpy_1744743084386/work
 cycler @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_cycler_1764466758/work
+Cython==3.2.8
 debugpy @ file:///D:/bld/bld/rattler-build_debugpy_1780390184/work
 decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1779115150916/work
 defusedxml @ file:///home/conda/feedstock_root/build_artifacts/defusedxml_1615232257335/work
@@ -41,6 +43,7 @@ httpx @ file:///home/conda/feedstock_root/build_artifacts/httpx_1733663348460/wo
 hyperframe @ file:///home/conda/feedstock_root/build_artifacts/hyperframe_1737618333194/work
 idna @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_idna_1781620148/work
 igraph @ file:///D:/bld/python-igraph_1761816609760/work
+ImageIO==2.37.3
 importlib_metadata @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_importlib-metadata_1779714582/work
 ipykernel @ file:///D:/bld/bld/rattler-build_ipykernel_1781101760/work
 ipython @ file:///D:/bld/bld/rattler-build_ipython_1748711254/work
@@ -65,6 +68,7 @@ jupyterlab_pygments @ file:///home/conda/feedstock_root/build_artifacts/jupyterl
 jupyterlab_server @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_jupyterlab_server_1761145478/work
 kiwisolver @ file:///D:/bld/bld/rattler-build_kiwisolver_1773067061/work
 lark @ file:///home/conda/feedstock_root/build_artifacts/lark_1761596826058/work
+lazy-loader==0.5
 legacy-api-wrap @ file:///home/conda/feedstock_root/build_artifacts/legacy-api-wrap_1762187530570/work
 leidenalg @ file:///D:/bld/leidenalg_1779687624901/work
 llvmlite==0.47.0
@@ -125,8 +129,10 @@ rfc3987-syntax @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-b
 rpds-py @ file:///D:/bld/bld/rattler-build_rpds-py_1764543082/work
 ruff @ file:///D:/bld/bld/rattler-build_ruff_1782428572/work
 scanpy @ file:///home/conda/feedstock_root/build_artifacts/scanpy_1761040974135/work
+scikit-image==0.25.2
 scikit-learn @ file:///D:/bld/scikit-learn_1757432814257/work/dist/scikit_learn-1.7.2-cp310-cp310-win_amd64.whl#sha256=80780e7bac7c11947bc8f76f74cce4a729277e8fc2c67f76db5038e95de040c9
 scipy @ file:///C:/bld/scipy-split_1739790833536/work/dist/scipy-1.15.2-cp310-cp310-win_amd64.whl#sha256=4748853a0c723cda1fa2bdead847ba7c2443bde9cec3436e3e7243cfa54b55ff
+scrublet==0.2.3
 scvelo @ file:///home/conda/feedstock_root/build_artifacts/scvelo_1772022805359/work
 seaborn @ file:///home/conda/feedstock_root/build_artifacts/seaborn-split_1733730015268/work
 Send2Trash @ file:///D:/bld/bld/rattler-build_send2trash_1770937641/work
@@ -140,6 +146,7 @@ statsmodels @ file:///D:/bld/statsmodels_1764983000605/work
 terminado @ file:///D:/bld/bld/rattler-build_terminado_1766513806/work
 texttable @ file:///home/conda/feedstock_root/build_artifacts/texttable_1734145585512/work
 threadpoolctl @ file:///home/conda/feedstock_root/build_artifacts/threadpoolctl_1741878222898/work
+tifffile==2025.5.10
 tinycss2 @ file:///home/conda/feedstock_root/build_artifacts/tinycss2_1729802851396/work
 tomli @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_tomli_1774492402/work
 tornado @ file:///D:/bld/tornado_1781006762719/work

@@ -30,6 +30,8 @@ This document records every dataset used in the MaligPx workflow, including acqu
 
 **DOI:** 10.1038/s41422-019-0195-y
 
+**Organization:** Beijing Institute of Genomics, Chinese Academy of Sciences
+
 **Repository:** Genome Sequence Archive (GSA), National Genomics Data Center (NGDC)
 
 **Repository URL:** https://ngdc.cncb.ac.cn/gsa/
@@ -50,6 +52,10 @@ This document records every dataset used in the MaligPx workflow, including acqu
 
 **Data Type:** Transcriptome or Gene expression
 
+**Sample Scope:** Single-cell 
+
+**Relevance:** Medical
+
 **Tissue:** Primary pancreatic tumor and matched normal pancreatic tissue
 
 **Experimental Design:** Single-cell RNA sequencing of PDAC tumor and normal pancreatic samples to characterize tumor heterogeneity, the tumor microenvironment, and determine the transcriptomes of over 50,000 individual pancreatic cells. 
@@ -60,13 +66,19 @@ This document records every dataset used in the MaligPx workflow, including acqu
 
 **Number of Runs:** 35
 
+**Biosample:** 35
+
 **Number of FASTQ Files:** 70 
 
-**Data Format:** Paired-end FASTQ (.fastq.gz)
+**Data Format:** Raw paired-end FASTQ files (.fastq.gz)
 
-**Download Methods:**  HTTPS, FTP, Aspera
+**Platforms:** Illumina HiSeq X Ten
 
-**Total Download Size:** 2694.29 GB
+**Download Methods:**  HTTPS, FTP, Aspera, QTrans
+
+**Metadata File:** CRA001160.xlsx
+
+**Total Download Size, Repository Size:** 2694.29 GB
 
 **License / Accessibility:** Publicly available at https://ngdc.cncb.ac.cn/gsa/browse/CRA001160
 
@@ -100,14 +112,6 @@ Status:
 
 &#x09;Download not yet initiated.
 
-
-
-Data Type:
-
-Raw paired-end FASTQ files
-
-
-
 Expected Contents:
 
 \- Tumor samples
@@ -116,17 +120,7 @@ Expected Contents:
 
 \- Single-cell RNA sequencing data
 
-
-
-Download Size:
-
-Approximately 2.69 TB
-
-
-
-Notes:
-
-The repository contains raw sequencing data only. Count matrices are not provided and must be generated through the alignment pipeline.
+Notes: The repository contains raw sequencing data only. Count matrices are not provided and must be generated through the alignment pipeline.
 
 
 
