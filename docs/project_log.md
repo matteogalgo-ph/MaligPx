@@ -1,8 +1,8 @@
-\# MaligPx Project Log
+# MaligPx Project Log
 
 
 
-\## Purpose
+## Purpose
 
 
 
@@ -14,51 +14,51 @@ Each milestone represents a major phase of development. Detailed implementation 
 
 
 
-\---
+---
 
 
 
-\## Project Information
+## Project Information
 
 
 
-\*\*Project Name:\*\* MaligPx
+*\*Project Name:\*\* MaligPx
 
 
 
-\*\*Project Type:\*\* Computational Biology / Bioinformatics
+*\*Project Type:\*\* Computational Biology / Bioinformatics
 
 
 
-\*\*Research Domain:\*\* Single-cell Transcriptomics, Cancer Systems Biology, Machine Learning
+*\*Research Domain:\*\* Single-cell Transcriptomics, Cancer Systems Biology, Machine Learning
 
 
 
-\*\*Primary Disease Focus:\*\* Pancreatic Ductal Adenocarcinoma (PDAC)
+*\*Primary Disease Focus:\*\* Pancreatic Ductal Adenocarcinoma (PDAC)
 
 
 
-\*\*Current Development Stage:\*\* MD-2 – Data Acquisition and Dataset Preparation
+*\*Current Development Stage:\*\* MD-2 – Data Acquisition and Dataset Preparation
 
 
 
-\*\*Repository Status:\*\* Public GitHub repository established.
+*\*Repository Status:\*\* Public GitHub repository established.
 
 
 
-\---
+---
 
 
 
-\## Development Timeline
+## Development Timeline
 
 
 
-\### MD-1 — Software and Computational Environment Initialization
+### MD-1 — Software and Computational Environment Initialization
 
 
 
-\*\*Status:\*\* Completed
+*\*Status:\*\* Completed
 
 
 
@@ -70,27 +70,27 @@ Major accomplishments included:
 
 
 
-\* Installation and configuration of Git.
+* Installation and configuration of Git.
 
-\* Installation of Miniforge as the canonical Python distribution.
+* Installation of Miniforge as the canonical Python distribution.
 
-\* Creation of the `maligpx` Conda environment using Python 3.10.
+* Creation of the `maligpx` Conda environment using Python 3.10.
 
-\* Installation and verification of the project's scientific software stack, including Scanpy, AnnData, scVelo, CellRank, Scrublet, NumPy, SciPy, Pandas, Matplotlib, NetworkX, igraph, Leidenalg, scikit-learn, and Statsmodels.
+* Installation and verification of the project's scientific software stack, including Scanpy, AnnData, scVelo, CellRank, Scrublet, NumPy, SciPy, Pandas, Matplotlib, NetworkX, igraph, Leidenalg, scikit-learn, and Statsmodels.
 
-\* Resolution of Windows Smart App Control restrictions that prevented execution of Conda environment interpreters.
+* Resolution of Windows Smart App Control restrictions that prevented execution of Conda environment interpreters.
 
-\* Installation of Microsoft Visual Studio Build Tools to support compilation of Python packages requiring native C/C++ extensions.
+* Installation of Microsoft Visual Studio Build Tools to support compilation of Python packages requiring native C/C++ extensions.
 
-\* Verification of successful package imports through an environment validation script.
+* Verification of successful package imports through an environment validation script.
 
-\* Generation of reproducibility artifacts, including `environment.yml`, `environment.lock.yml`, and `requirements.txt`.
+* Generation of reproducibility artifacts, including `environment.yml`, `environment.lock.yml`, and `requirements.txt`.
 
-\* Construction of the standardized project directory structure rooted at `C:\\MaligPx`.
+* Construction of the standardized project directory structure rooted at `C:\\MaligPx`.
 
-\* Initialization of Git version control.
+* Initialization of Git version control.
 
-\* Publication of the project's GitHub repository under the MIT License.
+* Publication of the project's GitHub repository under the MIT License.
 
 
 
@@ -98,15 +98,15 @@ Completion of MD-1 established a fully operational computational environment sui
 
 
 
-\---
+---
 
 
 
-\### MD-2 — Data Acquisition and Dataset Preparation
+### MD-2 — Data Acquisition and Dataset Preparation
 
 
 
-\*\*Status:\*\* In Progress
+*\*Status:\*\* In Progress
 
 
 
@@ -118,21 +118,21 @@ Completed activities include:
 
 
 
-\* Installation and verification of IBM Aspera Connect for high-speed data transfer.
+* Installation and verification of IBM Aspera Connect for high-speed data transfer.
 
-\* Construction of the standardized data directory hierarchy within `C:\\MaligPx\\data\\`.
+* Construction of the standardized data directory hierarchy within `C:\\MaligPx\\data\\`.
 
-\* Creation of dedicated storage locations for raw sequencing data, intermediate processing outputs, processed datasets, and RNA velocity resources.
+* Creation of dedicated storage locations for raw sequencing data, intermediate processing outputs, processed datasets, and RNA velocity resources.
 
-\* Creation of project documentation supporting data provenance, including the dataset manifest, data dictionary, and acquisition log.
+* Creation of project documentation supporting data provenance, including the dataset manifest, data dictionary, and acquisition log.
 
-\* Comprehensive audit of the Peng et al. (2019) Genome Sequence Archive repository (CRA001160), including verification of repository metadata, sequencing platform, experimental design, accession history, replacement runs, download methods, repository size, and public accessibility.
+* Comprehensive audit of the Peng et al. (2019) Genome Sequence Archive repository (CRA001160), including verification of repository metadata, sequencing platform, experimental design, accession history, replacement runs, download methods, repository size, and public accessibility.
 
-\* Verification that the repository contains raw paired-end FASTQ files rather than processed expression matrices.
+* Verification that the repository contains raw paired-end FASTQ files rather than processed expression matrices.
 
-\* Decision to reconstruct expression count matrices directly from raw sequencing reads as part of the official analytical workflow, thereby incorporating computational preprocessing into the reproducible methodology.
+* Decision to reconstruct expression count matrices directly from raw sequencing reads as part of the official analytical workflow, thereby incorporating computational preprocessing into the reproducible methodology.
 
-\* Publication of the GitHub repository and synchronization of the local Git history with the remote repository.
+* Publication of the GitHub repository and synchronization of the local Git history with the remote repository.
 
 
 
@@ -140,11 +140,11 @@ Activities currently in progress include completion of the project documentation
 
 
 
-\---
+---
 
 
 
-\## Milestone Status
+## Milestone Status
 
 
 
@@ -172,11 +172,11 @@ Activities currently in progress include completion of the project documentation
 
 
 
-\---
+---
 
 
 
-\## Current Project State
+## Current Project State
 
 
 
@@ -188,11 +188,11 @@ No biological sequencing data have yet been downloaded, and no preprocessing or 
 
 
 
-\---
+---
 
 
 
-\## Next Objectives
+## Next Objectives
 
 
 
@@ -200,19 +200,19 @@ The immediate objectives are to complete the remaining MD-2 documentation, obtai
 
 
 
-\---
+---
 
 
 
-\*\*Last Updated:\*\* 18 July 2026
+*\*Last Updated:\*\* 18 July 2026
 
 
 
-\*\*Current Milestone:\*\* MD-2 — Data Acquisition and Dataset Preparation
+*\*Current Milestone:\*\* MD-2 — Data Acquisition and Dataset Preparation
 
 
 
-\*\*Overall Project Status:\*\* Active Development
+*\*Overall Project Status:\*\* Active Development
 
 
 
