@@ -22,27 +22,27 @@ Each milestone represents a major phase of development. Detailed implementation 
 
 
 
-*\*Project Name:\*\* MaligPx
+**Project Name:** MaligPx
 
 
 
-*\*Project Type:\*\* Computational Biology / Bioinformatics
+**Project Type:** Computational Biology / Bioinformatics
 
 
 
-*\*Research Domain:\*\* Single-cell Transcriptomics, Cancer Systems Biology, Machine Learning
+**Research Domain:** Single-cell Transcriptomics, Cancer Systems Biology, Machine Learning
 
 
 
-*\*Primary Disease Focus:\*\* Pancreatic Ductal Adenocarcinoma (PDAC)
+**Primary Disease Focus:** Pancreatic Ductal Adenocarcinoma (PDAC)
 
 
 
-*\*Current Development Stage:\*\* MD-2 – Data Acquisition and Dataset Preparation
+**Current Development Stage:** MD-2 – Data Acquisition and Dataset Preparation
 
 
 
-*\*Repository Status:\*\* Public GitHub repository established.
+**Repository Status:** Public GitHub repository established.
 
 
 
@@ -58,7 +58,7 @@ Each milestone represents a major phase of development. Detailed implementation 
 
 
 
-*\*Status:\*\* Completed
+**Status:** Completed
 
 
 
@@ -106,8 +106,7 @@ Completion of MD-1 established a fully operational computational environment sui
 
 
 
-*\*Status:\*\* In Progress
-
+**Status:** In Progress
 
 
 The second milestone focuses on establishing the data infrastructure required for the biological component of the project. Rather than immediately downloading sequencing data, emphasis has been placed on documenting data provenance, auditing repository contents, organizing local storage, and planning a reproducible acquisition workflow.
@@ -204,15 +203,15 @@ The immediate objectives are to complete the remaining MD-2 documentation, obtai
 
 
 
-*\*Last Updated:\*\* 18 July 2026
+**Last Updated:** 18 July 2026
 
 
 
-*\*Current Milestone:\*\* MD-2 — Data Acquisition and Dataset Preparation
+**Current Milestone:** MD-2 — Data Acquisition and Dataset Preparation
 
 
 
-*\*Overall Project Status:\*\* Active Development
+**Overall Project Status:** Active Development
 
 
 
