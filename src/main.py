@@ -1,0 +1,1 @@
+python -c "import anndata; print(anndata.__version__)"
