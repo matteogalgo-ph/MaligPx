@@ -163,6 +163,7 @@ License / Accessibility: Publicly available at https://ngdc.cncb.ac.cn/gsa/brows
 
 Elyada E. *et al.* (2019)
 Tumor microenvironment single-cell RNA sequencing dataset, used for validation analyses.
+Accession: GSE129455
 
 # Development workflow
 Development follows milestone-based project management.
@@ -185,6 +186,17 @@ Repository status: Active development.
 
 **NOTE**: Scientific analyses have not yet begun.
 Current emphasis is on establishing a fully reproducible computational foundation before dataset processing.
+
+# Current milestone
+MD-2 — Dataset acquisition and preprocessing.
+Completed
+✓ Computational environment
+✓ Reproducible repository
+✓ Documentation framework
+✓ Dataset provenance audit
+In progress
+• Acquisition of Peng et al. (2019)
+• Generation of expression matrices
 
 # License
 
