@@ -1,8 +1,8 @@
-\# Data Dictionary
+# Data Dictionary
 
 
 
-\## Project
+## Project
 
 
 
@@ -10,7 +10,7 @@ MaligPx
 
 
 
-\## Purpose
+## Purpose
 
 
 
@@ -22,15 +22,15 @@ Unlike the Dataset Manifest, which documents dataset-level provenance, this docu
 
 
 
-\---
+---
 
 
 
-\# Dataset Status
+# Dataset Status
 
 
 
-\## DS-001
+## DS-001
 
 
 
@@ -94,11 +94,11 @@ Velocity preprocessing pending.
 
 
 
-\---
+---
 
 
 
-\# Sample Status Definitions
+# Sample Status Definitions
 
 
 
@@ -130,15 +130,15 @@ Every sample progresses through the following lifecycle.
 
 
 
-\---
+---
 
 
 
-\# Peng et al. (2019)
+# Peng et al. (2019)
 
 
 
-\## Repository Summary
+## Repository Summary
 
 
 
@@ -234,11 +234,11 @@ CRX030784	        T23	        CRR034518	        CRR241803
 
 
 
-\---
+---
 
 
 
-\# Sample Inventory
+# Sample Inventory
 
 
 
@@ -256,11 +256,11 @@ No sequencing runs have been downloaded at this stage.
 
 
 
-\---
+---
 
 
 
-\# Expected Local Storage
+# Expected Local Storage
 
 
 
@@ -304,11 +304,11 @@ C:\\MaligPx\\data\\intermediate\\peng2019\\
 
 
 
-\---
+---
 
 
 
-\# Quality-Control Tracking
+# Quality-Control Tracking
 
 
 
@@ -316,41 +316,40 @@ The following information will be recorded for every sequencing run after prepro
 
 
 
-\- Total sequencing reads
+- Total sequencing reads
 
-\- Number of detected cells
+- Number of detected cells
 
-\- Number of detected genes
+- Number of detected genes
 
-\- Median UMIs per cell
+- Median UMIs per cell
 
-\- Median genes per cell
+- Median genes per cell
 
-\- Percentage mitochondrial RNA
+- Percentage mitochondrial RNA
 
-\- Number of filtered cells
+- Number of filtered cells
 
-\- Number of retained cells
+- Number of retained cells
 
-\- Doublet detection summary
+- Doublet detection summary
 
-\- Ambient RNA correction status
+- Ambient RNA correction status
 
-\- Batch assignment
+- Batch assignment
 
-\- RNA velocity compatibility
+- RNA velocity compatibility
 
-\- Final inclusion status
-
-
-
-\---
+- Final inclusion status
 
 
 
-\# Notes
+---
+
+
+
+# Notes
 
 
 
 At the current project stage, no biological data have been downloaded. This document establishes the structure that will receive sample-level metadata throughout MD-2, beginning with FASTQ acquisition and continuing through preprocessing, quality control, matrix generation, RNA velocity preparation, and integration into the unified MaligPx analytical dataset.
-
