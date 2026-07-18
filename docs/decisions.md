@@ -1,8 +1,8 @@
-**MaligPx Decision Log**
+# **MaligPx Decision Log**
 
 
 
-\--- **DEC-001**
+## --- **DEC-001**
 
 
 
@@ -40,7 +40,7 @@ Impact: All future environment specifications assume Miniforge.
 
 
 
-\--- **DEC-002**
+## --- **DEC-002**
 
 
 
@@ -74,7 +74,7 @@ Future development must target this environment unless compatibility requirement
 
 
 
-\--- **DEC-003**
+## --- **DEC-003**
 
 
 
@@ -104,7 +104,7 @@ Impact: The environment remains maximally reproducible while retaining flexibili
 
 
 
-\--- **DEC-004**
+## --- **DEC-004**
 
 
 
@@ -142,7 +142,7 @@ Impact: requirements.txt becomes part of the project's reproducibility specifica
 
 
 
-\--- **DEC-005**
+## --- **DEC-005**
 
 
 
@@ -172,7 +172,7 @@ Impact: All future project development will follow this directory structure.
 
 
 
-\--- **DEC-006**
+## --- **DEC-006**
 
 
 
@@ -202,7 +202,7 @@ Impact: Engineering changes, research findings, and architectural decisions can 
 
 
 
-\--- **DEC-007**
+## --- **DEC-007**
 
 
 
@@ -232,7 +232,7 @@ Impact: Future work will begin with dataset acquisition and validation of the ba
 
 
 
-\-- **DEC-008**
+## -- **DEC-008**
 
 Title: Generate expression matrices directly from raw sequencing reads.
 
@@ -273,4 +273,3 @@ Impact
 
 
 The computational preprocessing stage becomes part of the official analytical pipeline and will precede all Scanpy quality-control procedures.
-
