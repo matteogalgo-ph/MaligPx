@@ -2,7 +2,7 @@
 
 
 
-## --- **DEC-001**
+## **DEC-001**
 
 
 
@@ -12,7 +12,7 @@ Date: 2026-06-28
 
 
 
-Decision
+### Decision
 
 
 
@@ -20,7 +20,7 @@ Miniforge will serve as the canonical Python distribution for MaligPx.
 
 
 
-Rationale
+### Rationale
 
 
 
@@ -28,7 +28,7 @@ Miniforge defaults to the conda-forge ecosystem, provides a smaller installation
 
 
 
-Alternatives Considered
+### Alternatives Considered
 
 Anaconda
 
@@ -36,11 +36,12 @@ Miniconda
 
 
 
-Impact: All future environment specifications assume Miniforge.
+### Impact: 
+All future environment specifications assume Miniforge.
 
 
 
-## --- **DEC-002**
+## **DEC-002**
 
 
 
@@ -50,7 +51,7 @@ Date: 2026-06-28
 
 
 
-Decision
+### Decision
 
 
 
@@ -58,7 +59,7 @@ The official project environment will be named maligpx and will use Python 3.10.
 
 
 
-Rationale
+### Rationale
 
 
 
@@ -66,15 +67,12 @@ Python 3.10 provides stable compatibility across the required computational biol
 
 
 
-Impact
-
-
-
+### Impact:
 Future development must target this environment unless compatibility requirements change.
 
 
 
-## --- **DEC-003**
+## **DEC-003**
 
 
 
@@ -84,7 +82,7 @@ Date: 2026-06-28
 
 
 
-Decision
+#### Decision
 
 
 
@@ -92,7 +90,7 @@ Software packages will be installed through Mamba/Conda whenever possible. Pip w
 
 
 
-Rationale
+### Rationale
 
 
 
@@ -100,11 +98,12 @@ Conda provides better dependency management for scientific computing libraries.
 
 
 
-Impact: The environment remains maximally reproducible while retaining flexibility when required.
+### Impact: 
+The environment remains maximally reproducible while retaining flexibility when required.
 
 
 
-## --- **DEC-004**
+## **DEC-004**
 
 
 
@@ -114,7 +113,7 @@ Date: 2026-06-28
 
 
 
-Decision
+### Decision
 
 
 
@@ -122,7 +121,7 @@ CellRank will be installed using pip rather than conda-forge.
 
 
 
-Rationale
+### Rationale
 
 
 
@@ -130,7 +129,7 @@ Current Windows conda-forge builds are unsatisfiable because CellRank depends on
 
 
 
-Alternatives Considered
+### Alternatives Considered
 
 Conda-forge installation
 
@@ -138,11 +137,12 @@ Building PETSc manually
 
 
 
-Impact: requirements.txt becomes part of the project's reproducibility specification alongside environment.yml.
+### Impact: 
+requirements.txt becomes part of the project's reproducibility specification alongside environment.yml.
 
 
 
-## --- **DEC-005**
+## **DEC-005**
 
 
 
@@ -152,7 +152,7 @@ Date: 2026-06-28
 
 
 
-Decision
+### Decision
 
 
 
@@ -160,7 +160,7 @@ MaligPx will use a modular repository structure separating source code, notebook
 
 
 
-Rationale
+### Rationale
 
 
 
@@ -168,11 +168,12 @@ A modular architecture improves maintainability, reproducibility, and long-term 
 
 
 
-Impact: All future project development will follow this directory structure.
+### Impact: 
+All future project development will follow this directory structure.
 
 
 
-## --- **DEC-006**
+## **DEC-006**
 
 
 
@@ -182,7 +183,7 @@ Date: 2026-06-28
 
 
 
-Decision
+### Decision
 
 
 
@@ -190,7 +191,7 @@ Software engineering activities, scientific research, project milestones, and me
 
 
 
-Rationale
+### Rationale
 
 
 
@@ -198,11 +199,12 @@ Separating technical implementation from scientific reasoning simplifies auditin
 
 
 
-Impact: Engineering changes, research findings, and architectural decisions can be traced independently throughout the project lifecycle.
+### Impact: 
+Engineering changes, research findings, and architectural decisions can be traced independently throughout the project lifecycle.
 
 
 
-## --- **DEC-007**
+## **DEC-007**
 
 
 
@@ -212,7 +214,7 @@ Date: 2026-06-28
 
 
 
-Decision
+### Decision
 
 
 
@@ -220,7 +222,7 @@ No biological analyses or FSAI development will begin until the computational en
 
 
 
-Rationale
+### Rationale
 
 
 
@@ -228,11 +230,12 @@ Establishing a stable software baseline minimizes downstream debugging and ensur
 
 
 
-Impact: Future work will begin with dataset acquisition and validation of the baseline Scanpy → scVelo → CellRank pipeline.
+### Impact: 
+Future work will begin with dataset acquisition and validation of the baseline Scanpy → scVelo → CellRank pipeline.
 
 
 
-## -- **DEC-008**
+## **DEC-008**
 
 Title: Generate expression matrices directly from raw sequencing reads.
 
@@ -240,7 +243,7 @@ Date: 2026-07-18
 
 
 
-Decision
+### Decision
 
 
 
@@ -248,7 +251,7 @@ The MaligPx project will reconstruct gene-expression count matrices directly fro
 
 
 
-Rationale
+### Rationale
 
 
 
@@ -260,7 +263,7 @@ Direct processing also enables future generation of spliced and unspliced count 
 
 
 
-Alternatives Considered
+### Alternatives Considered
 
 
 
@@ -268,7 +271,7 @@ Use publicly available processed count matrices.
 
 
 
-Impact
+### Impact
 
 
 
