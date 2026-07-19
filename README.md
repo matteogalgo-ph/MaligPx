@@ -1,15 +1,15 @@
-**MaligPx**
+# **MaligPx**
 
 MaligPx is a computational systems biology framework under **active development** for quantifying malignant cell fate plasticity in pancreatic ductal adenocarcinoma (PDAC) using single-cell RNA sequencing (scRNA-seq). The project integrates transcriptomic preprocessing, RNA velocity, probabilistic fate inference, regulatory network analysis, and statistical modeling into a fully reproducible analytical pipeline designed to investigate cellular plasticity during malignant progression.
 Unlike conventional analyses that primarily classify malignant cells into discrete transcriptional subtypes, MaligPx is being developed to estimate each malignant cell's propensity to transition between alternative developmental states. The framework introduces the **Fate State Ambiguity Index (FSAI)**, a quantitative metric derived from CellRank fate probabilities that measures the degree of developmental uncertainty exhibited by individual malignant cells.
 The project is being developed as an independent scientific research project and emphasizes computational reproducibility, transparent documentation, modular software engineering, and complete provenance tracking from raw sequencing data through downstream biological interpretation.
 
-**Research Objective**
+# **Research Objective**
 
 The primary objective of MaligPx is to develop, validate, and evaluate a computational framework capable of identifying highly plastic malignant cells within pancreatic ductal adenocarcinoma using single-cell transcriptomic data.
 The framework seeks to determine whether probabilistic cell-fate inference can provide biologically meaningful information beyond conventional subtype classification by integrating transcriptomic similarity, developmental trajectories, RNA velocity, and regulatory network activity.
 
-**Scientific Background**
+# **Scientific Background**
 
 Pancreatic ductal adenocarcinoma is characterized by extensive intratumoral heterogeneity, dynamic transcriptional programs, and substantial phenotypic plasticity. Existing subtype classifications, including the Classical and Basal-like continuum, describe malignant populations but do not directly quantify the uncertainty associated with future cellular state transitions.
 Recent advances in trajectory inference, RNA velocity, and Markov-state modeling provide the opportunity to estimate probabilistic developmental outcomes for individual cells rather than assigning deterministic labels.
