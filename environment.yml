@@ -12,6 +12,7 @@ dependencies:
   - matplotlib
   - scanpy
   - anndata
+  - scvi-tools
   - scvelo
   - jupyterlab
   - ipykernel
@@ -20,18 +21,12 @@ dependencies:
   - leidenalg
   - scikit-learn
   - statsmodels
-
+  - h5py
+  - openpyxl
   - black
   - ruff
   - isort
   - pip
-  - pip:
-      - cellrank
-      - scrublet
-      - loompy
-      - harmonypy
-      - pingouin
-      - gseapy
 
 # This file defines the intended project environment.
 #
