@@ -252,7 +252,7 @@ Pending
 |**Resource**|**URL**|**Purpose**|
 |-|-|-|
 |Peng et al. (2019), genome sequence analysis (GSA) dataset|https://ngdc.cncb.ac.cn/gsa/browse/CRA001160<br /><br />May also be accessed through:<br />https://zenodo.org/records/3969339|Primary discovery cohort|
-|Elyada et al. (2019) dataset|https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155698|Cross-species validation of tumor-stromal evolutionary dynamics|
+|Steele et al. (2020)|https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155698|Cross-species validation of tumor-stromal evolutionary dynamics|
 |GENCODE|https://www.gencodegenes.org|Gene annotation|
 |Ensembl|https://www.ensembl.org|Genome annotation|
 |CellRank|https://cellrank.readthedocs.io|Fate inference|
