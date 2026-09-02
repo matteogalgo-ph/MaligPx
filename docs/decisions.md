@@ -36,7 +36,8 @@ Miniconda
 
 
 
-### Impact: 
+### Impact:
+
 All future environment specifications assume Miniforge.
 
 
@@ -68,6 +69,7 @@ Python 3.10 provides stable compatibility across the required computational biol
 
 
 ### Impact:
+
 Future development must target this environment unless compatibility requirements change.
 
 
@@ -98,7 +100,8 @@ Conda provides better dependency management for scientific computing libraries.
 
 
 
-### Impact: 
+### Impact:
+
 The environment remains maximally reproducible while retaining flexibility when required.
 
 
@@ -137,7 +140,8 @@ Building PETSc manually
 
 
 
-### Impact: 
+### Impact:
+
 requirements.txt becomes part of the project's reproducibility specification alongside environment.yml.
 
 
@@ -168,7 +172,8 @@ A modular architecture improves maintainability, reproducibility, and long-term 
 
 
 
-### Impact: 
+### Impact:
+
 All future project development will follow this directory structure.
 
 
@@ -199,7 +204,8 @@ Separating technical implementation from scientific reasoning simplifies auditin
 
 
 
-### Impact: 
+### Impact:
+
 Engineering changes, research findings, and architectural decisions can be traced independently throughout the project lifecycle.
 
 
@@ -230,7 +236,8 @@ Establishing a stable software baseline minimizes downstream debugging and ensur
 
 
 
-### Impact: 
+### Impact:
+
 Future work will begin with dataset acquisition and validation of the baseline Scanpy → scVelo → CellRank pipeline.
 
 
@@ -276,3 +283,68 @@ Use publicly available processed count matrices.
 
 
 The computational preprocessing stage becomes part of the official analytical pipeline and will precede all Scanpy quality-control procedures.
+
+
+
+# **DEC-009**
+
+Title: Phase 2 Dataset Provenance Corrections
+
+Date: 2026-09-02
+
+
+
+### Decision 
+
+* The following corrections supersede conflicting statements in earlier
+
+working documents:
+
+
+
+1\. Peng et al. (2019)
+
+&#x20;  Repository: Genome Sequence Archive (GSA)
+
+&#x20;  Accession: CRA001160
+
+&#x20;  BioProject: PRJCA001063
+
+&#x20;  Sequencing chemistry: 10x Genomics Chromium Single Cell 3' v2
+
+
+
+&#x20;  Previous inDrop-specific instructions in past dataset\_manifest.md versions are incorrect and must not be
+
+&#x20;  used for FASTQ processing.
+
+
+
+2\. Steele et al. (2020)
+
+&#x20;  \*Added raw-data accession to dataset\_manifest.md: phs002071.v1.p1
+
+
+
+### Rationale
+
+
+
+To correct otherwise misleading information about the datasets used in MaligPx, and to add extra information for reference further on.
+
+
+
+### Alternatives considered
+
+
+
+Not applicable
+
+
+
+### Impact
+
+
+
+More specific and defensible details moving forward. Of course, it also enhances the accuracy of the study's logs.
+
