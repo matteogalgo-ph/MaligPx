@@ -74,7 +74,7 @@ This document records every dataset used in the MaligPx workflow, including acqu
 
 **Platforms:** Illumina HiSeq X Ten
 
-**Single-cell technology:** inDrop
+**Single-cell technology:** 10x Genomics Chromium 3′ v2
 
 **Download Methods:**  HTTPS, FTP, Aspera, QTrans
 
@@ -146,9 +146,9 @@ Download not yet initiated.
 
 **DOI:** 10.1038/s43018-020-00121-4
 
-**Organization:** Michigan Medicine - University of Michigan 
+**Organization:** Michigan Medicine - University of Michigan
 
-**Repository:** National Center for Biotechnology Information Gene Expression Omnibus 
+**Repository:** National Center for Biotechnology Information Gene Expression Omnibus
 
 **Repository URL:** https://www.ncbi.nlm.nih.gov/
 
@@ -199,6 +199,8 @@ Submitter states the raw data is deposted in the dbGaP: accession number phs0020
 **Total Download Size, Repository Size:** \~450 MB (For public GEO processed matrices); \~2.1 TB (For controlled dbGaP raw sequencing reads)
 
 **License / Accessibility:** Processed matrices are public; Raw data requires controlled Data Access Committee (DAC) approval through dbGaP.
+
+**Raw-data accession:** phs002071.v1.p1
 
 **Local Storage: C:\\MaligPx\\data\\validation\\steele2020\\**
 
